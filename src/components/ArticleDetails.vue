@@ -185,11 +185,9 @@ searchevent(value)
             //event.preventDefault();
 this.spinner=true
   this.searchText=value
-   setTimeout(function(){ 
             
   this.$root.$router.push('/articledetails/'+encodeURIComponent(this.searchText));
 
-           }.bind(this),3000);
 
 },
     changeLocale(locale) {
@@ -203,11 +201,9 @@ if (e.keyCode === 13) {
     // Cancel the default action, if needed
     e.preventDefault();
     // Trigger the button element with a click
-          setTimeout(function(){ 
             
   this.$root.$router.push('/articledetails/'+encodeURIComponent(this.searchText));
 
-           }.bind(this),3000);
 
 
 
