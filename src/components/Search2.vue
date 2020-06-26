@@ -99,11 +99,9 @@ searchevent(value)
 {
   //this.spinner=true
   this.searchText=value
-   setTimeout(function(){ 
             
   this.$root.$router.push('/articledetails/'+encodeURIComponent(this.searchText));
 
-           }.bind(this),3000);
 
 },
 
