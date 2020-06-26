@@ -91,7 +91,7 @@ import i18n from '../services/lang';
 
 export default Vue.extend({
   name: 'ArticleDetails',
-  components:{Navbar,Footer,Categorys,Lasttexts,Search},
+  components:{Navbar,Footer,Categorys,Lasttexts},
   data() {
     return {
         //errors: [''],
