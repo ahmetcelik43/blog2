@@ -68,7 +68,7 @@ import "vue-prism-editor/dist/VuePrismEditor.css"; // import the styles
 //Vue.component('jw-pagination', JwPagination);
 Vue.use(VueI18n);
 Vue.use(FlagIcon);
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 /*
 Vue.config.errorHandler = (err) => {
 	alert(err.message)
