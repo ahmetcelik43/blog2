@@ -47,7 +47,6 @@
       <br>
     
      <div class="header-search"> <a class="search-content-text">Blogda Ara</a></div>
-   <Search v-bind:articleAll="articleAll"></Search>
    <br>
      <div style="background-color: rgb(230,230,230,0.8);text-align:center" >
      {{ $t('Dil') }}
@@ -80,7 +79,6 @@
 import Vue from 'vue';
 import axios from 'axios';
 import Navbar from '@/components/Navbar.vue'
-import Search from '@/components/Search.vue'
 
 import Footer from '@/components/Footer.vue'
 import api from '../services/api';
